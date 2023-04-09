@@ -96,6 +96,8 @@ button:hover {
   .botones {
     flex-wrap: wrap;
     width: 300px;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
   }
   button {
     margin-bottom: 0;
@@ -112,7 +114,7 @@ button:hover {
     margin-right: auto;
   }
   h2 {
-    margin-top: 2rem;
+    margin-left: 1rem;
   }
 }
 
