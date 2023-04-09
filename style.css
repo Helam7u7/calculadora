@@ -75,7 +75,7 @@ button:hover {
   padding-top: 1%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 390px) {
   section {
     max-width: 450px;
   }
@@ -112,6 +112,7 @@ button:hover {
 @media (max-width: 390px) {
   section {
     width: 350px;
+    padding: 0.9rem 0.7rem;
   }
   .acciones {
     width: 200px;
