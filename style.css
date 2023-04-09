@@ -22,13 +22,14 @@ body {
 
 section {
   background-color: #2d3043;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 2rem;
   color: #fff;
   box-shadow: 1px 5px 10px 0.2px #000;
 }
 h1 {
   margin-bottom: 2rem;
+  width: 400px;
 }
 .acciones {
   width: 500px;
@@ -75,7 +76,10 @@ button:hover {
   padding-top: 1%;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 750px) {
+  body {
+    max-width: 750px;
+  }
   section {
     max-width: 450px;
   }
@@ -97,7 +101,10 @@ button:hover {
     margin-bottom: 0;
   }
   h1 {
+    width: 300px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .acciones {
     width: 300px;
@@ -110,9 +117,12 @@ button:hover {
 }
 
 @media (max-width: 390px) {
+  body {
+    max-width: 390px;
+  }
   section {
-    width: 350px;
-    padding: 0.9rem 0.7rem;
+    width: 290px;
+    padding: 0.9rem 0rem;
   }
   .acciones {
     width: 200px;
@@ -120,5 +130,10 @@ button:hover {
   .botones {
     width: 200px;
     gap: 2rem;
+  }
+  h1 {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
