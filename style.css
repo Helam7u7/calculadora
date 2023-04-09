@@ -108,3 +108,16 @@ button:hover {
     margin-top: 2rem;
   }
 }
+
+@media (max-width: 390px) {
+  section {
+    width: 350px;
+  }
+  .acciones {
+    width: 200px;
+  }
+  .botones {
+    width: 200px;
+    gap: 2rem;
+  }
+}
