@@ -4,7 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+:root {
+  --width-desktop: 1440px;
+}
 html,
 body {
   height: 100%;
@@ -15,6 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: var(--width-desktop);
 }
 
 section {
@@ -70,4 +73,38 @@ button:hover {
 }
 #simbolo {
   padding-top: 1%;
+}
+
+@media (max-width: 650px) {
+  section {
+    max-width: 450px;
+  }
+  .entradas {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+  #simbolo {
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+  .botones {
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  button {
+    margin-bottom: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  .acciones {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    margin-top: 2rem;
+  }
 }
